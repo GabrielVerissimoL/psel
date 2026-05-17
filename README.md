@@ -14,16 +14,16 @@ Foi muito divertido me aventurar por um assunto tão diferente do que estou acos
 O repositório que desenvolvi o psel e a construção do meu conhecimento foi https://github.com/GabrielVerissimoL/Network-studies, deveria ter feito direto no fork mas acabei por fazer lá.
 
 ### Libs utilizadas
-<fcntl.h> — fornece open() e a flag O_RDWR para abrir /dev/net/tun
-<unistd.h> — fornece read(), write() e close() para ler/escrever pacotes e fechar file descriptors
-<sys/ioctl.h> — fornece ioctl() para configurar a interface TUN via TUNSETIFF
-<net/if.h> — fornece struct ifreq usada para configurar o nome e flags da interface
-<linux/if_tun.h> — fornece as constantes IFF_TUN e IFF_NO_PI específicas da interface TUN
-<arpa/inet.h> — fornece inet_ntop() e inet_addr() para converter IPs entre binário e string
-<netinet/ip.h> — fornece struct iphdr para parsear cabeçalhos IPv4
-<linux/icmp.h> — fornece struct icmphdr para parsear e montar pacotes ICMP
-<netinet/udp.h> — fornece struct udphdr para parsear cabeçalhos UDP
-<netinet/tcp.h> — fornece struct tcphdr para parsear cabeçalhos TCP
+- <fcntl.h> — fornece open() e a flag O_RDWR para abrir /dev/net/tun
+- <unistd.h> — fornece read(), write() e close() para ler/escrever pacotes e fechar file descriptors
+- <sys/ioctl.h> — fornece ioctl() para configurar a interface TUN via TUNSETIFF
+- <net/if.h> — fornece struct ifreq usada para configurar o nome e flags da interface
+- <linux/if_tun.h> — fornece as constantes IFF_TUN e IFF_NO_PI específicas da interface TUN
+- <arpa/inet.h> — fornece inet_ntop() e inet_addr() para converter IPs entre binário e string
+- <netinet/ip.h> — fornece struct iphdr para parsear cabeçalhos IPv4
+- <linux/icmp.h> — fornece struct icmphdr para parsear e montar pacotes ICMP
+- <netinet/udp.h> — fornece struct udphdr para parsear cabeçalhos UDP
+- <netinet/tcp.h> — fornece struct tcphdr para parsear cabeçalhos TCP
 
 ### O que o firewall faz
 - Interface TUN virtual (10.0.0.x/24)
