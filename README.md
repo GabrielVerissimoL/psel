@@ -4,6 +4,7 @@ Essa será minha tentativa para o processo seletivo do PATOS, onde implementei u
 
 Tratando agora sobre a minha trajetória do próprio psel, começei tentando, ainda no psel 1.0 a implementar o reverse proxy, mas acabei não indo tão afundo por outros motivos. Quando lançado o 2.0, me interessei pelo firewall e me arrisquei a fazer, pesquisei bastante, quebrei a cabeça para entender e, no final, o mais importante, aprendi bastante.
 
+Iniciei meus estudos entendendo o que é um firewall e como ele funciona, utilizei principalmente o Beej's Guide para o início e segui com tutoriais pela internet. Após isso, fui descobrir como fazer o Tun/Tap, busquei entender o máximo possível de como funcionava cada coisa, por mais abstratas que fossem. No decorrer do código fui me baseando, basicamente, nos requisitos do próprio psel, implementando aos poucos os requisitos.
 ### Tutorias e Guias utilizados
 - **Beej's Guide to Network Programming** - https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf
 - **"Tun/Tap interface tutorial"** por Waldner
